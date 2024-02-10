@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#candidates, #voter, #vote, #tally {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin-left: 10px;
+}
