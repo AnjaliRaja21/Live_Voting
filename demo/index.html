@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Online Voting System</h1>
+    <div id="candidates">
+        <!-- Candidate options will be populated here dynamically -->
+    </div>
+    <div id="voter">
+        <label for="voterName">Enter Your Name:</label>
+        <input type="text" id="voterName">
+        <button onclick="registerVoter()">Register Voter</button>
+    </div>
+    <div id="vote">
+        <label for="candidate">Select Candidate:</label>
+        <select id="candidate">
+            <!-- Candidate options will be populated here dynamically -->
+        </select>
+        <button onclick="castVote()">Cast Vote</button>
+    </div>
+    <div id="tally">
+        <button onclick="tallyVotes()">Tally Votes</button>
+        <p id="voteTally"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
